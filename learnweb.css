@@ -1,0 +1,53 @@
+body {
+		text-align : center;
+		padding-top : 40px;
+		padding-left : 0px;
+		padding-right : 0px;
+		margin : 0px;              /*margin and padding are used here to set the image and other content to fit the screen */
+		color     : black;			/* otherwise they are going to outside the screen and another scroll bar is appearing in window */
+		background-color: black;
+		}
+div#first {
+		background-color: rgba(44, 62, 80,1.0);
+		width: 100%;
+		height: 600px;
+		margin: 0px;
+		border: 0px;
+		}
+		
+header {
+			
+			height : 40px;           /* same as body's padding-top to work properly the header hide show js function */
+			position : fixed;
+			top      : 0 ;
+			width    : 100%;
+			transition: top 0.2s ease-in-out;
+			background-color : #DCDCDC;
+			
+	}
+.nav-up{
+			top : -40px;
+		}
+ul li   { 
+		display : inline;
+		padding  : 80px;
+	}
+a      { 
+		text-decoration : none ; 
+		color           : rgba(52, 73, 94,1.0);
+	}
+	/* text-decoration is used to get the link "without under-line" */
+	
+img.nav , map area { 
+		outline : none;    /* when click on the image map link there would not be any outline , other-wise there is a border */
+		}
+p      { 
+		text-align : center ;
+	}
+
+#html{
+		/*background-color : 00FFCC; */
+	}
+#css {
+		/*background-color : #BDB76B; */
+	}
